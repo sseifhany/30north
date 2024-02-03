@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Date</title>
+    <style>
+        body {
+            background-image: url(file:///D:/Work/Extras/farida/lala%20land.jpg);
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+            color: White; /* text color on top of the background */
+            font-family: 'Cairo', Cairo; /* use Arial font or a fallback sans-serif font */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Add the audio element for background music -->
+    <audio autoplay loop>
+        <source src="file:///D:/Work/Extras/farida/mia.mp3" type="audio/mp3">
+    </audio>
+
+    <h1>I have something special to ask you..</h1>
+    <p>Dear Farida,</p>
+    <p>Would you like to be my date on Valentine's day?...</p>
+    <p>Love, Seif</p>
+
+    <button onclick="respond('yes')">Yes</button>
+    <button onclick="respond('no')">No</button>
+
+    <script>
+        function respond(answer) {
+            if (answer === 'yes') {
+                alert("It's gonne be legen-I don't have to wait for it anymore-dary");
+            } else {
+                alert("So, I guess I will see you in the movies");
+            }
+        }
+    </script>
+</body>
+</html>
